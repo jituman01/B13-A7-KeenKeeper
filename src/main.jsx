@@ -1,13 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ReactDOM from 'react-dom/client'; 
+import MainLayout from "./layouts/MainLayout"; 
+import Home from "./pages/Home";
+import Stats from './pages/Stats';
+import Timeline from './pages/Timeline';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><h2 className='bg-red-300'>Hello World</h2></div>,
+    element: <MainLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/timeline",
+        element: <Timeline />
+      },
+          { path: "/stats", 
+            element: <Stats /> },
+    ],
   },
 ]);
 
