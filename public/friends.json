@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200",
+    "email": "emma@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Former colleague, great mentor. Preferred: email",
+    "goal": 30,
+    "next_due_date": "Feb 27, 2026"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
+    "email": "david@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Hardworking developer and a close friend.",
+    "goal": 14,
+    "next_due_date": "April 20, 2026"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200",
+    "email": "lisa@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["hobby"],
+    "bio": "College friend, shares interest in photography.",
+    "goal": 7,
+    "next_due_date": "April 15, 2026"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    "email": "james@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["travel", "hobby"],
+    "bio": "Hiking buddy from the 2024 trip. Loves mountains.",
+    "goal": 30,
+    "next_due_date": "March 10, 2026"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200",
+    "email": "sarah@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Expert in UI design. We discuss project ideas often.",
+    "goal": 7,
+    "next_due_date": "April 16, 2026"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=200",
+    "email": "marcus@example.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["family"],
+    "bio": "Cousin living in Canada. Great at storytelling.",
+    "goal": 14,
+    "next_due_date": "April 18, 2026"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Martinez",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
+    "email": "olivia@example.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["hobby"],
+    "bio": "A passionate cook. We trade recipes every month.",
+    "goal": 30,
+    "next_due_date": "April 16, 2026"
+  },
+  {
+    "id": 8,
+    "name": "Aisha Patel",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
+    "email": "aisha@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "hobby"],
+    "bio": "Software tester. Huge fan of classic literature.",
+    "goal": 10,
+    "next_due_date": "April 19, 2026"
+  },
+  {
+    "id": 9,
+    "name": "Ryan O'Brien",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+    "email": "ryan@example.com",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Old childhood friend. Need to catch up ASAP.",
+    "goal": 60,
+    "next_due_date": "Jan 15, 2026"
+  },
+  {
+    "id": 10,
+    "name": "Tom Baker",
+    "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=200",
+    "email": "tom@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Senior developer and mentor for React projects.",
+    "goal": 5,
+    "next_due_date": "April 18, 2026"
+  }
+]
