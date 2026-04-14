@@ -6,12 +6,14 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Stats from './pages/Stats';
 import Timeline from './pages/Timeline';
+import NotFound from './pages/NotFound';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
