@@ -35,7 +35,7 @@ const Timeline = () => {
               <p className="text-slate-400 font-medium">{item.date}</p>
             </div>
           </div>
-        )) : <div className="text-center py-20 text-slate-300 font-bold text-xl italic border-4 border-dashed rounded-[40px]">No interactions found.</div>}
+        )) : <div className="text-center py-20 text-slate-300 font-bold text-xl border-4 rounded-[40px]">No interactions found.</div>}
       </div>
     </div>
   );
