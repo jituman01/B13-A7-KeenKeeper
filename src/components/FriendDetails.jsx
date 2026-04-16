@@ -60,13 +60,13 @@ const FriendDetails = () => {
 
           
           <div className="space-y-2">
-            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-slate-200 rounded-xl font-bold text-slate-700 hover:bg-slate-50 transition shadow-sm">
+            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-slate-200 rounded-xl font-bold text-slate-700  shadow-sm">
               <HiOutlineBell size={18}/> Snooze 2 Weeks
             </button>
-            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-slate-200 rounded-xl font-bold text-slate-700 hover:bg-slate-50 transition shadow-sm">
+            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-slate-200 rounded-xl font-bold text-slate-700  shadow-sm">
               <MdOutlineArchive size={18}/> Archive
             </button>
-            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-rose-100 rounded-xl font-bold text-rose-500 hover:bg-rose-50 transition shadow-sm">
+            <button className="w-full flex items-center justify-center gap-2 bg-white py-3 border border-rose-100 rounded-xl font-bold text-rose-500  shadow-sm">
               <MdDeleteOutline size={18}/> Delete
             </button>
           </div>
@@ -97,7 +97,7 @@ const FriendDetails = () => {
               <h4 className="font-bold text-slate-800 text-sm">Relationship Goal</h4>
               <p className="text-xs text-slate-500 mt-1">Connect every <span className="font-bold text-slate-800">{friend.goal} days</span></p>
             </div>
-            <button className="px-4 py-1.5 border border-slate-200 rounded-lg text-[10px] font-bold  hover:bg-slate-50">EDIT</button>
+            <button className="px-4 py-1.5 border border-slate-200 rounded-lg text-[10px] font-bold  ">EDIT</button>
           </div>
 
           {/* quick check section */}

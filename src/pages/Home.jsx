@@ -16,7 +16,7 @@ const Home = () => {
 
   if (loading) return (
     <div className="flex justify-center items-center h-screen">
-      <div className="w-12 h-12 border-4 border-teal-900 border-t-transparent rounded-full animate-spin"></div>
+      <div className="w-12 h-12 border-4 border-teal-900 border-t rounded-full animate-spin"></div>
     </div>
   );
 
@@ -29,23 +29,23 @@ const Home = () => {
       <div className="container mx-uto mb-10">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center transition-all hover:shadow-md">
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center ">
           <h2 className="text-4xl font-bold mb-2">10</h2>
           <p className="text-slate-500 font-medium text-sm">Total Friends</p>
         </div>
 
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center transition-all hover:shadow-md">
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center ">
           <h2 className="text-4xl font-bold  mb-2">3</h2>
           <p className="text-slate-500 font-medium text-sm">On Track</p>
         </div>
 
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center transition-all hover:shadow-md">
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center ">
           <h2 className="text-4xl font-bold  mb-2">6</h2>
           <p className="text-slate-500 font-medium text-sm">Need Attention</p>
         </div>
 
         
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center transition-all hover:shadow-md">
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center ">
           <h2 className="text-4xl font-bold  mb-2">12</h2>
           <p className="text-slate-500 font-medium text-sm">Interactions This Month</p>
         </div>
@@ -58,7 +58,7 @@ const Home = () => {
       </div>
       <h2 className="text-2xl font-bold flex justify-start mb-4">Your Friends</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gapy-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 ">
         {friends.map(friend => <FriendCard key={friend.id} friend={friend} />)}
       </div>
     </div>
