@@ -1,16 +1,16 @@
-# React + Vite
+KeenKeeper helps you keep track of your friendships and social connections. It's designed to remind you when you last spoke to someone and helps you maintain meaningful relationships without losing touch.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Features:-
+Friend Dashboard: View all your friends in a clean grid layout with status indicators (Overdue, Almost Due, On-track).
+Detailed Profiles: See specific information about each friend, including their bio, tags, and contact goals.
+Interaction Logging: Log calls, texts, or video chats with a single click.
+Timeline: A complete history of all your logged interactions with filtering options.
+Analytics: Visual breakdown of your communication habits (Call vs Text vs Video).
+Responsive Design: Works perfectly on mobile, tablet, and desktop screens.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Tech Stack:-
+Frontend: React.js, Tailwind CSS
+Routing: React Router DOM
+Icons & Assets: React Icons, Custom PNG icons
+Toast: React Hot Toast
+Data Handling: Local Storage 

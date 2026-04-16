@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center px-10 py-5 bg-white border-b sticky top-0 z-50">
+    <nav className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 lg:-mr-190 md:mr-110 mx-auto px-10 py-5 bg-white border-b sticky top-0 z-50">
       <div className="text-2xl font-bold text-teal-900">KeenKeeper</div>
       <div className="flex gap-4">
         {links.map((link) => (
