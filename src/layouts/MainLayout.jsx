@@ -8,7 +8,7 @@ const MainLayout = () => {
     <div className="bg-slate-50 min-h-screen">
       <Toaster position="top-center" />
       <Navbar />
-      <main className="min-h-[calc(100vh-450px)]">
+      <main className="min-h-screen">
         <Outlet />
       </main>
       <Footer />

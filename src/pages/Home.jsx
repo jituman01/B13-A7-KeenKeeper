@@ -21,7 +21,7 @@ const Home = () => {
   );
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12 text-center">
+    <div className="container mx-auto px-6 py-12 text-center">
       <h1 className="text-5xl font-extrabold text-slate-800 mb-4">Friends to keep close</h1>
       <p className="text-slate-500 mb-12 max-w-2xl mx-auto font-medium">Your personal shelf of meaningful connections.</p>
       <button className="bg-teal-900 text-white px-8 py-3 rounded-xl font-bold mb-16 hover:bg-teal-950">+ Add a Friend</button>

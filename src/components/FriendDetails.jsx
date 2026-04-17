@@ -79,15 +79,15 @@ const FriendDetails = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
               <p className="text-4xl font-black text-slate-800">{friend.days_since_contact}</p>
-              <p className="text-[10px] text-slate-400 uppercase tracking-widest mt-1">Days Since Contact</p>
+              <p className="text-[10px] text-slate-400 uppercase  mt-1">Days Since Contact</p>
             </div>
             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
               <p className="text-4xl font-black text-slate-800">{friend.goal}</p>
-              <p className="text-[10px] text-slate-400 uppercase tracking-widest mt-1">Goal (Days)</p>
+              <p className="text-[10px] text-slate-400 uppercase  mt-1">Goal (Days)</p>
             </div>
             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
               <p className="text-xl font-bold text-slate-800 pt-2">{friend.next_due_date}</p>
-              <p className="text-[10px] text-slate-400 uppercase tracking-widest mt-2">Next Due</p>
+              <p className="text-[10px] text-slate-400 uppercase  mt-2">Next Due</p>
             </div>
           </div>
 
@@ -112,12 +112,16 @@ const FriendDetails = () => {
                 <IoCallOutline size={28} className=" group-hover:text-emerald-600"/>
                 <span className="text-xs font-bold">Call</span>
               </button>
+
+
               <button 
                 onClick={() => handleAction('Text')}
+
                 className="flex flex-col items-center gap-2 p-4 bg-slate-50 rounded-xl hover:bg-emerald-50 hover:text-emerald-600 ">
                 <AiOutlineMessage size={28} className=" group-hover:text-emerald-600"/>
                 <span className="text-xs font-bold">Text</span>
               </button>
+
               <button 
                 onClick={() => handleAction('Video')}
                 className="flex flex-col items-center gap-2 p-4 bg-slate-50 rounded-xl hover:bg-emerald-50 hover:text-emerald-600 ">
